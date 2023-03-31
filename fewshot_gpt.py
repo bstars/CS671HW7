@@ -56,7 +56,7 @@ idx = true_idx + false_idx
 
 
 num_correct = 0
-openai.api_key = "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"
+openai.api_key = "secret =v="
 for i, label in idx:
 	new_prompt = "passage:" + dataset['validation'][i]['passage'] + "\n"
 	new_prompt += "question:" + dataset['validation'][i]['question'] + "\n"
